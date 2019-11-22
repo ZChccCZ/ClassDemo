@@ -76,7 +76,6 @@ public class ListViewDemo extends AppCompatActivity implements View.OnClickListe
                 if(f1==null){
                     f1=new ListViewFragment_1();//调用方法
                     fragmentTransaction.add(R.id.ly_content,f1);
-                    Toast.makeText(getApplicationContext(),"你点击了第个",Toast.LENGTH_LONG).show();
                 }else {
                     fragmentTransaction.show(f1);
                 }
