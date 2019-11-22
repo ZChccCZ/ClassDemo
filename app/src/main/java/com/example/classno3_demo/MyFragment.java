@@ -24,6 +24,8 @@ public class MyFragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_my,container,false);
         TextView textView=(TextView)view.findViewById(R.id.fragment_text);
         textView.setText(text);
+
+
         return view;
     }
 }
