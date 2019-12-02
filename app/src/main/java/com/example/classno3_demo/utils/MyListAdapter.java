@@ -1,4 +1,4 @@
-package com.example.classno3_demo.listview_demo;
+package com.example.classno3_demo.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.classno3_demo.R;
+import com.example.classno3_demo.entity.StudentData;
 
 import java.util.List;
 

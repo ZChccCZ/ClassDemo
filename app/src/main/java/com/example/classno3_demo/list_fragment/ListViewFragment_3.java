@@ -1,4 +1,4 @@
-package com.example.classno3_demo.listview_demo;
+package com.example.classno3_demo.list_fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,10 +8,11 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.ListFragment;
 
 import com.example.classno3_demo.R;
+import com.example.classno3_demo.entity.StudentData;
+import com.example.classno3_demo.utils.MyListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

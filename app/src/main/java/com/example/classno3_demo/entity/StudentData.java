@@ -1,4 +1,4 @@
-package com.example.classno3_demo.listview_demo;
+package com.example.classno3_demo.entity;
 public class StudentData {
     private String name;   //定义学生的姓名
     private int age;       //定义学生的年龄

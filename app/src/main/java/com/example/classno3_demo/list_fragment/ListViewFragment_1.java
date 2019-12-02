@@ -1,4 +1,4 @@
-package com.example.classno3_demo.listview_demo;
+package com.example.classno3_demo.list_fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.fragment.app.ListFragment;
@@ -24,7 +23,7 @@ public class ListViewFragment_1 extends ListFragment {
     @Override
     public View onCreateView( LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.listview_demo_1,container,false);
-        String[] strs = {"基神","B神","翔神","曹神","J神"};
+
         //找到listview 组件
         mListView = view.findViewById(android.R.id.list);
 

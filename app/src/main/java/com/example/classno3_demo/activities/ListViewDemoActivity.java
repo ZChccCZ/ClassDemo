@@ -1,22 +1,21 @@
-package com.example.classno3_demo;
+package com.example.classno3_demo.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.classno3_demo.listview_demo.ListViewFragment_1;
-import com.example.classno3_demo.listview_demo.ListViewFragment_2;
-import com.example.classno3_demo.listview_demo.ListViewFragment_3;
+import com.example.classno3_demo.R;
+import com.example.classno3_demo.list_fragment.ListViewFragment_1;
+import com.example.classno3_demo.list_fragment.ListViewFragment_2;
+import com.example.classno3_demo.list_fragment.ListViewFragment_3;
 
-public class ListViewDemo extends AppCompatActivity implements View.OnClickListener{
+public class ListViewDemoActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView textView_1;
     private TextView textView_2;

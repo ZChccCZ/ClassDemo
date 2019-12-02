@@ -1,4 +1,4 @@
-package com.example.classno3_demo;
+package com.example.classno3_demo.fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.classno3_demo.R;
 
 
 public class MyFragment extends Fragment {

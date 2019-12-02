@@ -1,4 +1,4 @@
-package com.example.classno3_demo;
+package com.example.classno3_demo.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,10 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.classno3_demo.R;
+import com.example.classno3_demo.activities.ListViewDemoActivity;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -36,7 +37,7 @@ public class DemoFragment extends Fragment implements View.OnClickListener {
         switch (view.getId()){
             case R.id.button_1:
 //                Toast.makeText(getActivity(),"你点击了第个",Toast.LENGTH_LONG).show();
-                Intent intent=new Intent(getActivity(),ListViewDemo.class);
+                Intent intent=new Intent(getActivity(), ListViewDemoActivity.class);
                 startActivity(intent);
                 break;
         }

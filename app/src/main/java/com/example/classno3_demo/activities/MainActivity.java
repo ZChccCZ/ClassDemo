@@ -1,8 +1,7 @@
-package com.example.classno3_demo;
+package com.example.classno3_demo.activities;
 
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -11,6 +10,10 @@ import android.view.View;
 import android.view.Window;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+
+import com.example.classno3_demo.fragment.DemoFragment;
+import com.example.classno3_demo.fragment.MyFragment;
+import com.example.classno3_demo.R;
 
 import java.util.Arrays;
 
